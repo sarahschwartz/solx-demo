@@ -57,15 +57,6 @@ with other versions yourself.
 - Only `forge build` & `forge test` were checked; `forge script` and other options may not work or work incorrectly.
 - Legacy codegen is more stable for now, `via_ir` does not work with `solmate` project.
 
-## Project structure
-
-All the projects are configured to be using `solx` and will assume that it's present in the root of the repository.
-
-- `sample_project`: a default `forge` project.
-- `erc20`: sample ERC20 token using [`solady`](https://github.com/Vectorized/solady) library.
-- `solmate`: copy of [`solmate`](https://github.com/transmissions11/solmate/) project, with compiler changed to `solc` 0.8.28 (for equivalence of benchmarks)
-  and pragma limitations lifted. ⚠️ requires foundry v0.3.0 to work (project not compatible with v1.0.0 yet).
-
 ## Comparisons
 
 You can compare the gas snapshots of the tests using the `snapshots.sh` script.
