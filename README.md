@@ -10,13 +10,7 @@ This repository contains a playground to test `solx` capabilities.
 ## Installing
 
 Install [foundry](https://book.getfoundry.sh/getting-started/installation) to interact with the projects.
-Foundry v1.0.0 can be used for `sample_project` and `erc20`, but Foundry v0.3.0 is required for `solmate`.
-
-If you already have Foundry v1.0.0 installed, you can use `foundryup` to install v0.3.0:
-
-```bash
-foundryup -v 0.3.0
-```
+Foundry v1.0.0 can be used.
 
 Here are the URL for the [test builds](https://github.com/matter-labs/solx/releases).
 
